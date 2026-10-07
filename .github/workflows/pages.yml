@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: tar -xzf *site-source.tar.gz
+      - run: tar -xzf 18-site-source.tar.gz
       - run: npm ci
       - run: npm run build
         env:
